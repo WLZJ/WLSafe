@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WLSafe.h"
 @interface ViewController ()
 
 @end

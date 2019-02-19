@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AF827AF7623DDCF5BE46017 /* libPods-WLSafeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550BF2A029B85BBC346DFC8E /* libPods-WLSafeTests.a */; };
+		B8E00A825A411C653AEF35E4 /* libPods-WLSafeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F59EEED210D5B5C0A6E456D /* libPods-WLSafeUITests.a */; };
+		D439345B4EEEB1F0C20CD391 /* libPods-WLSafe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0390BF6BA5DB068CD6407A /* libPods-WLSafe.a */; };
 		F0564703221BDFB700A34508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0564702221BDFB700A34508 /* AppDelegate.m */; };
 		F0564706221BDFB700A34508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0564705221BDFB700A34508 /* ViewController.m */; };
 		F0564709221BDFB700A34508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0564707221BDFB700A34508 /* Main.storyboard */; };
@@ -15,6 +18,11 @@
 		F0564711221BDFB800A34508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0564710221BDFB800A34508 /* main.m */; };
 		F056471B221BDFB800A34508 /* WLSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F056471A221BDFB800A34508 /* WLSafeTests.m */; };
 		F0564726221BDFB800A34508 /* WLSafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0564725221BDFB800A34508 /* WLSafeUITests.m */; };
+		F056473F221BE06500A34508 /* NSMutableArray+WLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F0564734221BE06500A34508 /* NSMutableArray+WLSafe.m */; };
+		F0564740221BE06500A34508 /* NSArray+WLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F0564735221BE06500A34508 /* NSArray+WLSafe.m */; };
+		F0564741221BE06500A34508 /* NSString+WLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F0564736221BE06500A34508 /* NSString+WLSafe.m */; };
+		F0564742221BE06500A34508 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = F056473D221BE06500A34508 /* NSDictionary+Safe.m */; };
+		F0564743221BE06500A34508 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = F056473E221BE06500A34508 /* NSObject+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F59EEED210D5B5C0A6E456D /* libPods-WLSafeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLSafeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349611D510446C6D16D17505 /* Pods-WLSafeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLSafeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLSafeTests/Pods-WLSafeTests.release.xcconfig"; sourceTree = "<group>"; };
+		462E79AFF45374BC5FBC1C78 /* Pods-WLSafeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLSafeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLSafeUITests/Pods-WLSafeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		550BF2A029B85BBC346DFC8E /* libPods-WLSafeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLSafeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5634D4C96D458F22668912DB /* Pods-WLSafeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLSafeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLSafeTests/Pods-WLSafeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57FC90AC8452846CCA8DA0D9 /* Pods-WLSafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLSafe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLSafe/Pods-WLSafe.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0390BF6BA5DB068CD6407A /* libPods-WLSafe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLSafe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5EA619ABEAB59E5A8021A2 /* Pods-WLSafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLSafe.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLSafe/Pods-WLSafe.release.xcconfig"; sourceTree = "<group>"; };
 		F05646FE221BDFB700A34508 /* WLSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0564701221BDFB700A34508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0564702221BDFB700A34508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,18 @@
 		F0564721221BDFB800A34508 /* WLSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0564725221BDFB800A34508 /* WLSafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSafeUITests.m; sourceTree = "<group>"; };
 		F0564727221BDFB800A34508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0564734221BE06500A34508 /* NSMutableArray+WLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WLSafe.m"; sourceTree = "<group>"; };
+		F0564735221BE06500A34508 /* NSArray+WLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WLSafe.m"; sourceTree = "<group>"; };
+		F0564736221BE06500A34508 /* NSString+WLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WLSafe.m"; sourceTree = "<group>"; };
+		F0564737221BE06500A34508 /* WLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSafe.h; sourceTree = "<group>"; };
+		F0564738221BE06500A34508 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		F0564739221BE06500A34508 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		F056473A221BE06500A34508 /* NSArray+WLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WLSafe.h"; sourceTree = "<group>"; };
+		F056473B221BE06500A34508 /* NSMutableArray+WLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WLSafe.h"; sourceTree = "<group>"; };
+		F056473C221BE06500A34508 /* NSString+WLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WLSafe.h"; sourceTree = "<group>"; };
+		F056473D221BE06500A34508 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		F056473E221BE06500A34508 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		FFA551B8B4A84FF410D7DBDA /* Pods-WLSafeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLSafeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLSafeUITests/Pods-WLSafeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D439345B4EEEB1F0C20CD391 /* libPods-WLSafe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF827AF7623DDCF5BE46017 /* libPods-WLSafeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +102,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E00A825A411C653AEF35E4 /* libPods-WLSafeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D3B471F08533C05CA960366 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57FC90AC8452846CCA8DA0D9 /* Pods-WLSafe.debug.xcconfig */,
+				7F5EA619ABEAB59E5A8021A2 /* Pods-WLSafe.release.xcconfig */,
+				5634D4C96D458F22668912DB /* Pods-WLSafeTests.debug.xcconfig */,
+				349611D510446C6D16D17505 /* Pods-WLSafeTests.release.xcconfig */,
+				462E79AFF45374BC5FBC1C78 /* Pods-WLSafeUITests.debug.xcconfig */,
+				FFA551B8B4A84FF410D7DBDA /* Pods-WLSafeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C468CEA90731C05EF93967E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D0390BF6BA5DB068CD6407A /* libPods-WLSafe.a */,
+				550BF2A029B85BBC346DFC8E /* libPods-WLSafeTests.a */,
+				2F59EEED210D5B5C0A6E456D /* libPods-WLSafeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F05646F5221BDFB700A34508 = {
 			isa = PBXGroup;
 			children = (
+				F0564733221BE06500A34508 /* Safe */,
 				F0564700221BDFB700A34508 /* WLSafe */,
 				F0564719221BDFB800A34508 /* WLSafeTests */,
 				F0564724221BDFB800A34508 /* WLSafeUITests */,
 				F05646FF221BDFB700A34508 /* Products */,
+				5D3B471F08533C05CA960366 /* Pods */,
+				C468CEA90731C05EF93967E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +189,24 @@
 			path = WLSafeUITests;
 			sourceTree = "<group>";
 		};
+		F0564733221BE06500A34508 /* Safe */ = {
+			isa = PBXGroup;
+			children = (
+				F0564737221BE06500A34508 /* WLSafe.h */,
+				F0564739221BE06500A34508 /* NSObject+Swizzling.h */,
+				F056473E221BE06500A34508 /* NSObject+Swizzling.m */,
+				F056473C221BE06500A34508 /* NSString+WLSafe.h */,
+				F0564736221BE06500A34508 /* NSString+WLSafe.m */,
+				F0564738221BE06500A34508 /* NSDictionary+Safe.h */,
+				F056473D221BE06500A34508 /* NSDictionary+Safe.m */,
+				F0564735221BE06500A34508 /* NSArray+WLSafe.m */,
+				F056473A221BE06500A34508 /* NSArray+WLSafe.h */,
+				F056473B221BE06500A34508 /* NSMutableArray+WLSafe.h */,
+				F0564734221BE06500A34508 /* NSMutableArray+WLSafe.m */,
+			);
+			path = Safe;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F056472A221BDFB800A34508 /* Build configuration list for PBXNativeTarget "WLSafe" */;
 			buildPhases = (
+				6E1472F167A59160095E943E /* [CP] Check Pods Manifest.lock */,
 				F05646FA221BDFB700A34508 /* Sources */,
 				F05646FB221BDFB700A34508 /* Frameworks */,
 				F05646FC221BDFB700A34508 /* Resources */,
+				AF533832A0AEE6E52CFB6C54 /* [CP] Embed Pods Frameworks */,
+				DB0B494BEFE8048611C77332 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F056472D221BDFB800A34508 /* Build configuration list for PBXNativeTarget "WLSafeTests" */;
 			buildPhases = (
+				66893F96A66673320260D6D6 /* [CP] Check Pods Manifest.lock */,
 				F0564712221BDFB800A34508 /* Sources */,
 				F0564713221BDFB800A34508 /* Frameworks */,
 				F0564714221BDFB800A34508 /* Resources */,
+				1B4A6D1BB855CA5716F90638 /* [CP] Embed Pods Frameworks */,
+				8EFC63930A5CAB8569F1386D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0564730221BDFB800A34508 /* Build configuration list for PBXNativeTarget "WLSafeUITests" */;
 			buildPhases = (
+				1180D881C74C781E64A62176 /* [CP] Check Pods Manifest.lock */,
 				F056471D221BDFB800A34508 /* Sources */,
 				F056471E221BDFB800A34508 /* Frameworks */,
 				F056471F221BDFB800A34508 /* Resources */,
+				930D9FAFB6EED8DE3B847165 /* [CP] Embed Pods Frameworks */,
+				60467D95624C123C23E24756 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +341,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1180D881C74C781E64A62176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLSafeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B4A6D1BB855CA5716F90638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLSafeTests/Pods-WLSafeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60467D95624C123C23E24756 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLSafeUITests/Pods-WLSafeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66893F96A66673320260D6D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLSafeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1472F167A59160095E943E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLSafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFC63930A5CAB8569F1386D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLSafeTests/Pods-WLSafeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		930D9FAFB6EED8DE3B847165 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLSafeUITests/Pods-WLSafeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF533832A0AEE6E52CFB6C54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLSafe/Pods-WLSafe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0B494BEFE8048611C77332 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLSafe/Pods-WLSafe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F05646FA221BDFB700A34508 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0564740221BE06500A34508 /* NSArray+WLSafe.m in Sources */,
+				F0564741221BE06500A34508 /* NSString+WLSafe.m in Sources */,
 				F0564706221BDFB700A34508 /* ViewController.m in Sources */,
+				F0564743221BE06500A34508 /* NSObject+Swizzling.m in Sources */,
+				F056473F221BE06500A34508 /* NSMutableArray+WLSafe.m in Sources */,
+				F0564742221BE06500A34508 /* NSDictionary+Safe.m in Sources */,
 				F0564711221BDFB800A34508 /* main.m in Sources */,
 				F0564703221BDFB700A34508 /* AppDelegate.m in Sources */,
 			);
@@ -433,9 +669,10 @@
 		};
 		F056472B221BDFB800A34508 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FC90AC8452846CCA8DA0D9 /* Pods-WLSafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7THY7C5S7T;
 				INFOPLIST_FILE = WLSafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,15 +681,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fanlai.WLSafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = fanlaif2test;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F056472C221BDFB800A34508 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5EA619ABEAB59E5A8021A2 /* Pods-WLSafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7THY7C5S7T;
 				INFOPLIST_FILE = WLSafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,12 +700,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fanlai.WLSafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = fanlaif2test;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		F056472E221BDFB800A34508 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5634D4C96D458F22668912DB /* Pods-WLSafeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +727,7 @@
 		};
 		F056472F221BDFB800A34508 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349611D510446C6D16D17505 /* Pods-WLSafeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +747,7 @@
 		};
 		F0564731221BDFB800A34508 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462E79AFF45374BC5FBC1C78 /* Pods-WLSafeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7THY7C5S7T;
@@ -523,6 +766,7 @@
 		};
 		F0564732221BDFB800A34508 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA551B8B4A84FF410D7DBDA /* Pods-WLSafeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7THY7C5S7T;
